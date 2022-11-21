@@ -1,0 +1,1040 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:06] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:07] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:10] "[33mGET /templates/user-feed.html-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:36] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:41] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:41] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:48:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:17] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:19] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:19] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:19] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:19] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:24] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:29] "GET /posts/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:34] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:49:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:33] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:34] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:40] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:50:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:51:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:51:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:51:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Nov/2022 23:51:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:59] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:39:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:03] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:10] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:40:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:00] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:03] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:03] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:05] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:09] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:11] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:24] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:25] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:25] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:25] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:25] "GET /posts/5 HTTP/1.1" 200 -
+ERROR:app:Exception on /posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    post_by_id = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:52:29] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:37] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /posts/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 23, in post_page
+    content = get_tags(post_by_id)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 62, in get_tags
+    for word in content.split(" "):
+AttributeError: 'dict' object has no attribute 'split'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:53:43] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:54:33] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:54:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:54:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:54:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:56:38] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:56:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:56:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:56:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:10] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 19:58:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:34] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:11:36] "[33mGET /tag/кот HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:13:25] "[33mGET /tag/кот HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:13:59] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:13:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:13:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:13:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /tags/кот [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 85, in get_by_tag
+    posts_with_tag = posts_by_tag(hashtag)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 75, in posts_by_tag
+    if hashtag.startswith('#').lower() in post['content'].lower():
+AttributeError: 'bool' object has no attribute 'lower'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:01] "GET /tags/кот HTTP/1.1" 200 -
+ERROR:app:Exception on /tags/котики [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 85, in get_by_tag
+    posts_with_tag = posts_by_tag(hashtag)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 75, in posts_by_tag
+    if hashtag.startswith('#').lower() in post['content'].lower():
+AttributeError: 'bool' object has no attribute 'lower'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:04] "GET /tags/котики HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:14:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:05] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:07] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:11] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:15] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:25] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:15:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:06] "[33mGET /api/posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:14] "[33mGET /api/posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:17] "GET /api/posts HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:28] "[32mGET /api/posts HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:28] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:29] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:35] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:38] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:47] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:50] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:53] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:22:56] "GET /api/posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:25:09] "[33mGET /meow HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:26:35] "[33mGET /api/postsss HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:27:44] "GET /api/postsss HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:49:26] "GET /api/postsss HTTP/1.1" 200 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 14, in index_page
+    posts = get_posts_all()
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 12, in get_posts_all
+    posts_list = load_json_file('/data/posts.json')
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 5, in load_json_file
+    with open(filename, 'rt', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/posts.json'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:49:28] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\letim\Desktop\Python Projects\Home Task 10.0\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\app.py", line 14, in index_page
+    posts = get_posts_all()
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 12, in get_posts_all
+    posts_list = load_json_file('/data/posts.json')
+  File "C:\Users\letim\Desktop\pythonProject\Course Work 12\utils.py", line 5, in load_json_file
+    with open(filename, 'rt', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/posts.json'
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:49:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:22] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:25] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:35] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:51:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:11] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:15] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 20:52:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:37] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:39] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:41] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:45] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:31:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:48:14] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:48:21] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:48:33] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 21:48:40] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\tests\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\tests\\test_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\tests\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\tests\\conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:46] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:50] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:51] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:54] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:56] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:06:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\logger.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:34] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:38] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:43] "GET /posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:08:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:09:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:09:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:09:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:09:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:01] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:01] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:01] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "GET /users/johnny HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:25] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:25] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:26] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:28] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:10:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:03] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:04] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:07] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:09] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:14:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:30] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:31] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:37] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:16:40] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\api\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:18:48] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:18:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:18:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:18:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:18:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:12] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:40:15] "GET /api/posts/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\letim\\Desktop\\pythonProject\\Course Work 12\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 952-754-468
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:43:44] "GET /api/posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2022 22:43:45] "GET /api/posts/ HTTP/1.1" 200 -
